@@ -1,10 +1,9 @@
-<<<<<<< HEAD
-
 
 # AgastyaHomes 🏡
 
 A robust web application built with Node.js, Express, and MongoDB. This project provides a platform for users to browse, create, and review listings. It features a complete user authentication system, data validation, and a structured error-handling mechanism.
 
+Live At :- https://agastyahomes.onrender.com
 -----
 
 ## ✨ Features
@@ -115,8 +114,3 @@ You can easily deploy this project on [Render](https://render.com):
 6. **Add your environment variables** (e.g., `MONGO_URL`).
 7. **Click Create Web Service** and wait for deployment to finish.
 
-Your app will be live at the URL provided by Render!
-=======
-# AgastyaHomes
-Full-stack real estate platform with authentication, listings, reviews, validation, and CRUD — built using Node.js, Express &amp; MongoDB
->>>>>>> 28f954b1f550bc4b69c3ee47da32f8fbd2efc56f
