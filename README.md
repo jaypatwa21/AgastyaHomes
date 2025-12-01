@@ -10,7 +10,7 @@ Built with **Node.js**, **Express**, **MongoDB**, and **EJS**, this project deli
 # 📸 Project Screenshots
 
 ### 🏙️ Listings Page
-![Listings](Assets/listings.png)
+![Listings](Assets/Listings.png)
 
 ### ⭐ Reviews Page
 ![Reviews](Assets/reviews.png)
@@ -19,7 +19,7 @@ Built with **Node.js**, **Express**, **MongoDB**, and **EJS**, this project deli
 ![Checkout](Assets/checkout.png)
 
 ### 📄 Listing Details Page
-![Show Page](Assets/show.png)
+![Show Page](Assets/Show.png)
 
 ### ➕ Create New Listing
 ![New Listing](Assets/newlist.png)
