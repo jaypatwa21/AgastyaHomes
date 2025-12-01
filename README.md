@@ -12,14 +12,14 @@ Built with **Node.js**, **Express**, **MongoDB**, and **EJS**, this project deli
 ### 🏙️ Listings Page
 ![Listings](Assets/Listings.png)
 
+### 📄 Listing Details Page
+![Show Page](Assets/show.png)
+
 ### ⭐ Reviews Page
 ![Reviews](Assets/reviews.png)
 
 ### 💳 Checkout Page
 ![Checkout](Assets/checkout.png)
-
-### 📄 Listing Details Page
-![Show Page](Assets/Show.png)
 
 ### ➕ Create New Listing
 ![New Listing](Assets/newlist.png)
