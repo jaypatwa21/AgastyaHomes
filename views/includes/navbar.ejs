@@ -1,0 +1,65 @@
+<style>
+  .btn-search {
+    background-color: #fe424d;
+    color: white;
+    border-radius: 25px;
+    padding: 0 1rem 0 1rem;
+  }
+
+  .btn-search:hover {
+    background-color: #fe424d;
+    color: white;
+  }
+
+  .btn-search i {
+    display: inline;
+    margin-right: 0.5rem;
+  }
+
+  .search-input {
+    border-radius: 25px;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    font-size: 1rem;
+  }
+  .brand-name {
+    color: #fe424d; /* Airbnb-like color */
+    font-weight: 700;
+    font-size: 1.15rem;
+    letter-spacing: 0.2px;
+  }
+</style>
+<nav class="navbar navbar-expand-md bg-body-light border-bottom sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand d-flex align-items-center" href="/listings">
+      <img src="/logo.png" alt="AgastyaHomes" style="height:48px;">
+      <span class="brand-name ms-2">AgastyaHomes</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav me-auto">
+        <a class="nav-link" href="/listings">Explore</a>
+        <a class="nav-link" href="/listings/new">List Your Home</a>
+      </div>
+
+      <form class="d-flex position-relative mx-auto" role="search" id="searchForm" autocomplete="off" style="max-width:520px; width:100%">
+        <input id="searchInput" class="form-control me-2 search-input" type="search" placeholder="Search Destinations" />
+        <button class="btn btn-search" type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <ul class="dropdown-menu w-100 mt-5" id="searchDropdown" style="z-index:999;"></ul>
+      </form>
+
+      <div class="navbar-nav ms-auto">
+        <% if(!currentUser){ %>
+          <a class="nav-link" href="/signup"><b>Sign Up</b></a>
+          <a class="nav-link" href="/login"><b>Log In</b></a>
+        <% } else { %>
+          <a class="nav-link" href="/logout">Logout</a>
+        <% } %>
+      </div>
+    </div>
+  </div>
+</nav>
