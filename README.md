@@ -1,34 +1,85 @@
+# 🏡 AgastyaHomes
 
-# AgastyaHomes 🏡
+A modern, full-stack real-estate booking web application where users can explore destinations, list properties, manage bookings, and post reviews.  
+Built with **Node.js**, **Express**, **MongoDB**, and **EJS**, this project delivers real-world functionality similar to top property-rental platforms.
 
-A robust web application built with Node.js, Express, and MongoDB. This project provides a platform for users to browse, create, and review listings. It features a complete user authentication system, data validation, and a structured error-handling mechanism.
+🌐 **Live Demo:** https://agastyahomes.onrender.com
 
-Live At :- https://agastyahomes.onrender.com
------
+---
 
-## ✨ Features
+# 📸 Project Screenshots
 
-  * **User Authentication**: Secure user registration and login using Passport.js.
-  * **Listing Management**: Users can create, view, update, and delete listings.
-  * **Review System**: Authenticated users can post and delete reviews on listings.
-  * **Data Validation**: Server-side schema validation using Joi to ensure data integrity.
-  * **Protected Routes**: Middleware to protect specific routes, ensuring only authenticated users can access them.
-  * **Relational Data**: Implements a one-to-many relationship between listings and reviews.
-  * **Cascade Deletes**: Automatically deletes all associated reviews when a listing is deleted.
+### 🏙️ Listings Page
+![Listings](Assets/listings.png)
 
------
+### ⭐ Reviews Page
+![Reviews](Assets/reviews.png)
 
-## 🛠️ Tech Stack & Packages
+### 💳 Checkout Page
+![Checkout](Assets/checkout.png)
 
-  * **Backend**: Node.js, Express.js
-  * **Database**: MongoDB with Mongoose (ODM)
-  * **Templating Engine**: EJS (with ejs-mate for layouts)
-  * **Authentication**: Passport.js (`passport`, `passport-local`, `passport-local-mongoose`)
-  * **Session Management**: `express-session`, `connect-flash`
-  * **Validation**: Joi
-  * **Middleware**: `method-override` (for PUT/DELETE requests from forms)
+### 📄 Listing Details Page
+![Show Page](Assets/show.png)
 
------
+### ➕ Create New Listing
+![New Listing](Assets/newlist.png)
+
+---
+
+# ✨ Features
+
+### 🔐 **User Authentication**
+- Secure login & signup using Passport.js  
+- Protected routes for verified users only  
+
+### 🏠 **Listing Management**
+- Create, update, delete property listings  
+- Upload images (Cloudinary or local)  
+- Category-wise filtering (Rooms, Mountains, Iconic Cities, Domes, etc.)
+
+### ⭐ **Reviews System**
+- Users can post & delete reviews  
+- Average rating and review count included  
+
+### 🗃️ **Database & Validation**
+- MongoDB + Mongoose ODM  
+- Joi validation for secure & clean inputs  
+
+### 🛡️ **Error Handling**
+- Custom ExpressError class  
+- Global error middleware  
+- Async error wrapper (wrapAsync)
+
+### 🔄 **Cascade Deletes**
+- When a listing is removed → all related reviews auto-deleted  
+
+---
+
+# 🛠️ Tech Stack
+
+### **Backend**
+- Node.js  
+- Express.js  
+
+### **Database**
+- MongoDB  
+- Mongoose ORM  
+
+### **Templating**
+- EJS  
+- EJS-Mate (Layouts & Partials)
+
+### **Security & Auth**
+- Passport.js  
+- Passport-Local  
+- Express-Session  
+- Connect-Flash  
+
+### **Utilities**
+- Method-Override  
+- Joi Validation  
+
+---
 
 ## 🚀 Getting Started
 
