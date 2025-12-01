@@ -15,7 +15,7 @@ if (process.env.CLOUD_NAME && process.env.CLOUD_API_KEY && process.env.CLOUD_API
   const storage = new CloudinaryStorage({
     cloudinary: cloudinary,
     params: {
-      folder: 'wanderlust_DEV',
+      folder: 'AgastyaHomes_DEV',
       allowedFormats: ['png', 'jpg', 'jpeg'],
     },
   });
