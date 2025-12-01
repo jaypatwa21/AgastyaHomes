@@ -147,21 +147,3 @@ The application uses a centralized error handling strategy:
 3.  **Error Handling Middleware**: A final middleware in `app.js` catches all errors passed to `next()`, and renders a dedicated error page with the error's message and status code.
 -----
 
-## 🚢 Deployment on Render
-
-You can easily deploy this project on [Render](https://render.com):
-
-1. **Push your code to GitHub.**
-2. **Go to [Render Dashboard](https://dashboard.render.com/)** and click "New Web Service".
-3. **Connect your GitHub repository** and select this project.
-4. **Set the build command:**
-  ```bash
-  npm install
-  ```
-5. **Set the start command:**
-  ```bash
-  npm start
-  ```
-6. **Add your environment variables** (e.g., `MONGO_URL`).
-7. **Click Create Web Service** and wait for deployment to finish.
-
