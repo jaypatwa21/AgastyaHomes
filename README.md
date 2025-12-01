@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 # AgastyaHomes 🏡
@@ -115,3 +116,7 @@ You can easily deploy this project on [Render](https://render.com):
 7. **Click Create Web Service** and wait for deployment to finish.
 
 Your app will be live at the URL provided by Render!
+=======
+# AgastyaHomes
+Full-stack real estate platform with authentication, listings, reviews, validation, and CRUD — built using Node.js, Express &amp; MongoDB
+>>>>>>> 28f954b1f550bc4b69c3ee47da32f8fbd2efc56f
